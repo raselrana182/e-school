@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.top-body{
+    background-color: #F0FFF0;
+}
+.container{
+    margin-bottom: 100px;
+}
+.logo img{
+    width: 150px;
+}
+.btn-signin{
+    background-color: #21B573;
+    color: white;
+    border-radius: 33px;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.top-section img{
+    width: 554px;
+    height: 346px;
+}
+
+.text-section{
+    margin-top: 20px;
+}
+small{
+    color: #FD511A;
+}
+.text-section span{
+    color: #21B573;
+}
+.top-btn{
+    background-color: #21B573;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 33px;
+    border: none;
+}
+.top-section p{
+    color: grey;
+}
+.content{
+    margin-top: 30px;
+}
+.card img{
+    width: 60px;
+    margin-left: 100px;
+    margin-top: 40px; 
+}
+.card{
+    border-radius: 10px;
+    border: none;
+    background-color: #F0FFF0;
+}
+
+.card:hover{
+    background-color: white;
+    box-shadow: 2px 2px 10px lightgray;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.online-course .card img{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px; 
+}
+.middle-body h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #413960;
+    font-weight: 850;
+}
+.course-btn{
+    background-color: #21B573;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 33px;
+    border: none;
+}
