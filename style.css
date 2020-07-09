@@ -37,14 +37,17 @@ li{
     margin-right: 20px;
 }
 
-.top-section img{
-    
+.banner img{
     margin-bottom: 50px;
 }
 
+.picture-section{
+    width: 554px;
+    height: 346px;
+}
+
 .text-section{
-    margin-top: 20px;
-    margin-left: -40px;
+    margin-top: px;
 }
 small{
     color: #FD511A;
