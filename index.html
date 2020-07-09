@@ -22,16 +22,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Books</a>
+                      <a class="nav-link menu" href="#">Books</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Courses</a>
+                      <a class="nav-link menu" href="#">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Others</a>
+                        <a class="nav-link menu" href="#">Others</a>
                       </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Blog</a>
+                      <a class="nav-link menu" href="#">Blog</a>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -49,7 +49,7 @@
                     <p>lorem ipsum</p>
                     <button class="top-btn">Get Started</button>
                 </div>
-                <div class="picture-section col-md-7">
+                <div class="img-fluid picture-section col-md-7">
                     <img src="images/Photos/Illustration.png" alt="">
                 </div>
             </div>
@@ -110,18 +110,32 @@
                 <button class="top-btn">Buy Courses</button>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="row d-flex justify-content-start">
+                  <div class="col-md-7">
+                    <img src="images/ICON/calendar.png" alt=""> <small>Start 20 April, 2021</small>
+                  </div>
+                  <div class="col-md-5">
+                    <img src="images/ICON/people.png" alt=""> <small>60 seats</small>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="card">
-              <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+              <img src="images/Photos/Morder psyc.png" class="card-img-top " alt="...">
               <div class="card-body">
                 <h5 class="card-title">Modern Psychology</h5>
                 <p class="card-text">Designation</p>
                 <button class="top-btn">Buy Courses</button>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="row d-flex justify-content-start">
+                  <div class="col-md-7">
+                    <img src="images/ICON/calendar.png" alt=""> <small>Start 20 April, 2021</small>
+                  </div>
+                  <div class="col-md-5">
+                    <img src="images/ICON/people.png" alt=""> <small>60 seats</small>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="card">
@@ -132,7 +146,14 @@
                 <button class="top-btn">Buy Courses</button>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="row d-flex justify-content-start">
+                  <div class="col-md-7">
+                    <img src="images/ICON/calendar.png" alt=""> <small>Start 20 April, 2021</small>
+                  </div>
+                  <div class="col-md-5">
+                    <img src="images/ICON/people.png" alt=""><small>60 seats</small>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -141,30 +162,68 @@
 
     </section>
 
+
     <section class="testimonial">
       <div class="container">
         <h3>Testimonial</h3>
-        <div class="row d-flex justify-content-between">
-          
-          <div class="col-md-4">
-            <img src="images/Photos/Man.png" alt="">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="images/Photos/Man.png" alt="">
+                </div>
+                <div class="col-md-8 ">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="images/Photos/Man.png" alt="">
+                </div>
+                <div class="col-md-8 ">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis hic unde cumque necessitatibus deleniti eligendi perferendis at laborum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="images/Photos/Man.png" alt="">
+                </div>
+                <div class="col-md-8 ">
+                  <p>Tempore possimus porro suscipit nisi tempora perspiciatis aperiam eos? Odit, accusantium dolor?</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-8 ">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis hic unde cumque necessitatibus deleniti eligendi perferendis at laborum, tempore possimus porro suscipit nisi tempora perspiciatis aperiam eos? Odit, accusantium dolor?</p>
-          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </section>
     
-    <section>
-      <div class="container d-flex justify-content-center align-items-center bg-green" id="">
-        <div>
-            <h3>Let's Stay In Touch</h3>
-            <h6>Happy Learning</h6>
-            <input class="form-control" type="email" placeholder="Enter Your Email Address">
-            <button class="top-btn">Submit</button>
+    <section class="comment">
+      <div class="container d-flex justify-content-center align-items-center comment-bg-color">
+        <div class="row">
+            <div>
+                <h3>Let's Stay In Touch</h3>
+                <h6>Happy Learning</h6>
+                <input type="text" class="form-control" placeholder="Comment">
+                <input class="form-control" type="email" placeholder="Enter Your Email Address">
+                <button class="top-btn">Submit</button>
+            </div>
         </div>
-    </div>
+      </div>
     </section>
 
     <section class="footer">
