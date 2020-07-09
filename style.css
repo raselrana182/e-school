@@ -1,19 +1,28 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;  
 }
-.top-body{
+body p{
+    color: #585859;
+    font-size: 20px;
+    font-weight: 500;
+}
+.top-body, .banner{
     background-color: #F0FFF0;
 
 }
-.container{
-    margin-bottom: 100px;
+.top-body, .content, .courses, .testimonial, .comment{
+    padding-bottom: 100px;
 }
 .top-body .container .menu{
     color: black;
     font-weight: 500;
     font-size: 15px;
-    display: flex;
+}
+.banner{
+    margin-bottom: 50px;
+}
+.banner .text-section small, h1, p, button{
+    padding-bottom: 15px;
 }
 .logo img{
     width: 150px;
@@ -29,13 +38,13 @@ li{
 }
 
 .top-section img{
-    width: 554px;
-    height: 346px;
+    
     margin-bottom: 50px;
 }
 
 .text-section{
     margin-top: 20px;
+    margin-left: -40px;
 }
 small{
     color: #FD511A;
@@ -61,7 +70,7 @@ small{
 /* .content{
     margin-top: 30px;
 } */
- .content .card img{
+.content .card img{
     width: 60px;
     margin-left: 100px;
     margin-top: 40px; 
@@ -143,6 +152,10 @@ small{
     font-weight: 800;
     margin-left: 450px;
 }
+.testimonial p{
+    color: gray;
+    
+}
 .carousel-item{
     padding: 20px 40px;
 }
@@ -175,6 +188,9 @@ ul li{
 
 .footer p{
     margin-top: 50px;
+    color: white;
+    font-weight: 250;
+    font-size: 16px;
 }
 .footer p, ul li{
     font-weight: 250;
