@@ -1,95 +1,74 @@
 body{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif;
 }
-body p{
-    color: #585859;
-    font-size: 20px;
-    font-weight: 500;
-}
-.top-body, .banner{
-    background-color: #F0FFF0;
 
-}
-.top-body, .content, .courses, .testimonial, .comment{
-    padding-bottom: 100px;
-}
-.top-body .container .menu{
+.navbar-sec .container .menu{
     color: black;
     font-weight: 500;
-    font-size: 15px;
 }
-.banner{
-    margin-bottom: 50px;
+.all-btn{
+    color: white;
+    background-color: #21B573;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 28px;
+} 
+
+.all-btn:hover{
+    background-image: linear-gradient(#B993D6,#8CA6DB);
 }
-.banner .text-section small, h1, p, button{
-    padding-bottom: 15px;
-}
+
 .logo img{
     width: 150px;
 }
-.btn-signin{
-    background-color: #21B573;
-    color: white;
-    border-radius: 33px;
-}
-
 li{
     margin-right: 20px;
 }
 
+.navbar-sec, .banner{
+    background-color: #F0FFF0;
+}
 .banner img{
+    margin-bottom: 50px;
+    padding: 0px 90px 0px 20px;
+}
+.text-sec span{
+    color: #21B573;
+}
+.text-sec h1{
+    font-weight: 900;
+}
+.text-sec small{
+    color: #FD511A;
+}
+.text-sec small, h1, p, button{
+    padding: 10px;
+}
+.navbar-sec{
+    padding-bottom: 50px;
+}
+.content, .courses, .testimonial, .comment{
+    padding-bottom: 100px;
+}
+
+.banner{
     margin-bottom: 50px;
 }
 
-.picture-section{
-    width: 554px;
-    height: 346px;
+.content .container .card-body {
+    text-align: center;
 }
-
-.text-section{
-    margin-top: px;
-}
-small{
-    color: #FD511A;
-}
-.text-section span{
-    color: #21B573;
-}
-
-.top-section p{
-    color: grey;
-}
-.top-btn{
-    background-color: #21B573;
-    color: white;
-    padding: 8px 30px;
-    border-radius: 33px;
-    border: none;
-}
-.top-btn:hover{
-    background-image: linear-gradient(#B993D6,#8CA6DB);
-}
-
-/* .content{
+.content .container .card img{
     margin-top: 30px;
-} */
-.content .card img{
-    width: 60px;
-    margin-left: 100px;
-    margin-top: 40px; 
-} 
-.content .card{
-    border-radius: 10px;
-    border: none;
-    background-color: #F0FFF0;
-    width: 100%;    
 }
-.card:hover{
+.content .container .card{
+    border: none;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+}
+.content .container .card:hover{
     background-color: white;
     box-shadow: 2px 2px 10px lightgray;
-}
-.content .card-body{
-    text-align: center;
 }
 .courses h3{
     margin-bottom: 50px;
@@ -115,38 +94,13 @@ small{
     border: none;
     border-radius: 15px;
     box-shadow: 10px 10px 25px lightgray;
-
 }
 .card-footer{
     border: none;
     background-color: white;
-    margin-top: -20px;
 }
-.card-footer img{
-    width: 48px;
-    margin-left: -15px;
-}
-.card-footer small{
-    color: #585859;
-    font-size: 12px;
-    font-weight: 500;
-}
-.carousel-control-prev-icon {
-    height: 25px;
-    width: 25px;
-    background-color: darkcyan;
-    border-radius: 50%;
-    margin-right: 40px;
-}
-.carousel-control-next-icon{
-    height: 25px;
-    width: 25px;
-    margin-left: 70px;
-    background-color: darkcyan;
-    border-radius: 50%;
-}
+
 .testimonial img{
-    width: 100px;
     margin-left: 220px;
 }
 .testimonial h3{
@@ -157,14 +111,6 @@ small{
 }
 .testimonial p{
     color: gray;
-    
-}
-.carousel-item{
-    padding: 20px 40px;
-}
-.carousel-item img{
-    width: 100px;
-    margin-left: 220px;
 }
 .comment-bg-color{
     background-color: darkcyan;
@@ -176,13 +122,13 @@ small{
     background-image: linear-gradient(#606c88,#3f4c6b);
     color: white;
 }
-.comment-bg-color .top-btn, .form-control{
+.comment-bg-color .all-btn, .form-control{
     margin-top: 10px;
 }
+
 .footer{
     background-color: #282531;
-    color: white;
-    height: 369px;  
+    color: white; 
 }
 
 ul li{
@@ -205,6 +151,5 @@ ul li{
 
 .footer .copy-section small{
     color: grey;
-    position: absolute;
     margin-top: 100px;
 }
